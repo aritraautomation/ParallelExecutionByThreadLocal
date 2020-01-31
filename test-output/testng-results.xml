@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54284" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:31Z">
+    <groups>
+    </groups>
+    <test name="searchTest1" duration-ms="50446" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:27Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="setUp" is-config="true" duration-ms="39070" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="searchCases" duration-ms="9353" started-at="2020-01-30T08:15:16Z" finished-at="2020-01-30T08:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="tearDown" is-config="true" duration-ms="2010" started-at="2020-01-30T08:15:25Z" finished-at="2020-01-30T08:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest1 -->
+    <test name="searchTest3" duration-ms="51022" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:27Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="setUp" is-config="true" duration-ms="40547" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="searchCases" duration-ms="8823" started-at="2020-01-30T08:15:17Z" finished-at="2020-01-30T08:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="tearDown" is-config="true" duration-ms="1642" started-at="2020-01-30T08:15:26Z" finished-at="2020-01-30T08:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest3 -->
+    <test name="calculationDemo" duration-ms="11" started-at="2020-01-30T08:15:28Z" finished-at="2020-01-30T08:15:28Z">
+      <class name="org.parallelExecTest.Calculation">
+        <test-method status="PASS" signature="sum()[pri:0, instance:org.parallelExecTest.Calculation@551aa95a]" name="sum" duration-ms="7" started-at="2020-01-30T08:15:28Z" finished-at="2020-01-30T08:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- org.parallelExecTest.Calculation -->
+    </test> <!-- calculationDemo -->
+    <test name="searchTest2" duration-ms="52709" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:29Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="setUp" is-config="true" duration-ms="32101" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="searchCases" duration-ms="3492" started-at="2020-01-30T08:15:09Z" finished-at="2020-01-30T08:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="17073" started-at="2020-01-30T08:15:12Z" finished-at="2020-01-30T08:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest2 -->
+    <test name="screenshotDemo" duration-ms="54284" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:31Z">
+      <class name="org.parallelExecTest.ScreenshotElement">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="setUp" is-config="true" duration-ms="37068" started-at="2020-01-30T08:14:36Z" finished-at="2020-01-30T08:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.hubspot.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="screenshotDemo()[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="screenshotDemo" duration-ms="16003" started-at="2020-01-30T08:15:14Z" finished-at="2020-01-30T08:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="tearDown" is-config="true" duration-ms="1203" started-at="2020-01-30T08:15:30Z" finished-at="2020-01-30T08:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.ScreenshotElement -->
+    </test> <!-- screenshotDemo -->
+  </suite> <!-- Suite -->
+</testng-results>

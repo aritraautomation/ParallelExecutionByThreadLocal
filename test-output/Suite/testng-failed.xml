@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.demo.ExtentReport"/>
+  </listeners>
+  <test thread-count="4" name="screenshotDemo(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://app.hubspot.com/login"/>
+    <classes>
+      <class name="org.parallelExecTest.ScreenshotElement">
+        <methods>
+          <include name="screenshotDemo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.parallelExecTest.ScreenshotElement -->
+    </classes>
+  </test> <!-- screenshotDemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

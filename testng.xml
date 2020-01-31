@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4" parallel="tests">
+  
+  <listeners>
+		<listener class-name="org.demo.ExtentReport" />
+	</listeners>
+  
+  <test name="searchTest1">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="url" value="http://www.google.com"/>	  
+	  <parameter name ="search" value="selenium"/>
+		<classes>
+			<class name="org.parallelExecTest.SearchTest"/>
+		</classes>
+	</test>
+	
+  
+	<test name="searchTest2">
+	  <parameter name ="browser" value="firefox"/>
+	  <parameter name ="url" value="http://www.google.com"/>
+	  <parameter name ="search" value="qtp"/>
+		<classes>
+			<class name="org.parallelExecTest.SearchTest"/>
+		</classes>
+	</test>
+	
+	<test name="searchTest3">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="url" value="http://www.google.com"/>
+	  <parameter name ="search" value="selenium"/>
+		<classes>
+			<class name="org.parallelExecTest.SearchTest"/>
+		</classes>
+	</test>
+	
+	<test name="screenshotDemo">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="url" value="https://app.hubspot.com/login"/>
+	  	<classes>
+			<class name="org.parallelExecTest.ScreenshotElement"/>
+		</classes>
+	</test>
+	
+	<test name="calculationDemo">
+	  	<classes>
+			<class name="org.parallelExecTest.Calculation"/>
+		</classes>
+	</test>
+  
+</suite> 
